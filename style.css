@@ -1,7 +1,8 @@
+
 @font-face {
   font-family: Crunchy;
-      src: url('Crunchy.ttf')  format("truetype");
-  }
+  src: url('Crunchy.ttf')  format("truetype");
+}
 
 body, html { 
   margin: 0;
@@ -87,6 +88,7 @@ main {
 }
 #article{
   padding: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #gif1{
   background-image: url(https://i.gifer.com/2iFb.gif);
@@ -103,6 +105,12 @@ main {
   background-size: 100%;
   position: relative;
 
+}
+.kolaz {
+  width: 464px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #6c019a;
 }
 
 h1, h3{
@@ -123,10 +131,28 @@ li a {
   text-decoration: none;
   /* this removes the underline */
 }
+
 li img{
   padding-left: 10px;
   padding-right: 10px;
   height: 13px;
+}
+.stopy{
+  width: 45%;
+  margin: 8px;
+  border-radius: 5px;
+  border-style: dashed;
+  border-color:#b26ecf;
+}
+.gwiazda{
+  width:450px;
+  border-radius:25%;
+  border-style: solid;
+  border-color: #6c019a;
+  margin: 5px
+}
+.zazn{
+  color: #6c019a;
 }
 video{
   width: 400px;
@@ -140,6 +166,9 @@ video{
 ::selection {
   color: rgb(221, 0, 255);
   background-color: rgb(0, 0, 0);
+}
+sup{
+  font-size: 9px;
 }
 @media only screen and (max-width: 800px) {
   #flex {
